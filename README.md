@@ -22,6 +22,8 @@ import { MarkdownInput } from "@raketa-cms/raketa-markdown-input";
   value={value} // required
   onChange={setValue} //required
 />;
+
+<div dangerouslySetInnerHTML={{ __html: toHTML(value) }} />;
 ```
 
 ## License
