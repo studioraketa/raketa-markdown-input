@@ -13,7 +13,6 @@ yarn add @raketa-cms/raketa-markdown-input
 ## Usage
 
 ```jsx
-import React from "react";
 import { MarkdownInput } from "@raketa-cms/raketa-markdown-input";
 
 <MarkdownInput
