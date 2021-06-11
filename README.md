@@ -2,29 +2,29 @@
 
 > Markdown input for Raketa CMS
 
-[![NPM](https://img.shields.io/npm/v/raketa-markdown-input.svg)](https://www.npmjs.com/package/raketa-markdown-input) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@raketa-cms/raketa-markdown-input.svg)](https://www.npmjs.com/package/@raketa-cms/raketa-markdown-input) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save raketa-markdown-input
+yarn add @raketa-cms/raketa-markdown-input
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from "react";
+import { MarkdownInput } from "@raketa-cms/raketa-markdown-input";
 
-import MyComponent from 'raketa-markdown-input'
-import 'raketa-markdown-input/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+<MarkdownInput
+  label="Text" // optional
+  height="200px" // optional
+  documentationLink="https://guides.github.com/features/mastering-markdown/" // optional
+  value={value} // required
+  onChange={setValue} //required
+/>;
 ```
 
 ## License
 
- © [vestimir](https://github.com/vestimir)
+MIT © [studioraketa](https://github.com/studioraketa)
