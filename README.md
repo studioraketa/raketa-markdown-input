@@ -1,4 +1,4 @@
-# raketa-markdown-input
+# @raketa-cms/raketa-markdown-input
 
 > Markdown input for Raketa CMS
 
