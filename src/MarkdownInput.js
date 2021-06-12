@@ -54,7 +54,7 @@ const PreviewPane = styled.div`
   padding: 1em;
   overflow-y: auto;
   border: 1px dashed ${(props) => props.theme.colors.primary};
-  background-color: ${(props) => props.theme.colors.white};
+  background-color: ${(props) => props.theme.colors.trueWhite};
 `;
 
 const MarkdownInput = ({
