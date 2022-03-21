@@ -4,6 +4,7 @@ import {
   Label,
   Textarea,
   buttonReset,
+  Hint,
 } from "@raketa-cms/raketa-mir";
 import styled from "styled-components";
 import toHTML from "./toHTML";
@@ -60,6 +61,7 @@ const PreviewPane = styled.div`
 const MarkdownInput = ({
   label = "Text",
   height = "200px",
+  hint = "",
   documentationLink = "https://guides.github.com/features/mastering-markdown/",
   value,
   onChange,
@@ -115,6 +117,8 @@ const MarkdownInput = ({
           </IconButton>
         </ButtonToolbar>
       </TextareaWrapper>
+
+      <Hint>{hint}</Hint>
     </FormGroup>
   );
 };
